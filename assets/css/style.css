@@ -80,3 +80,29 @@ a{
     color: #fff;
     border: 5px solid #09B778;
 }
+.feature__section{
+    padding: 100px 0 200px 0;
+}
+.featured__card{
+    background-color: #000066;
+    color: #fff;
+    /* padding: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    font-size: 40px;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+    border-radius: 34px;
+}
+.featured__card:nth-child(2){
+    transform: scale(1.2);
+    border: 3px solid #fff;
+    color: #09B778;
+}
+
+/* .col-md-4:nth-child(2){
+    background-color: #09B778;
+} */
