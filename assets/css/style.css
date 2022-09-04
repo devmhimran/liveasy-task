@@ -179,3 +179,28 @@ a{
     font-weight: 500;
     color: rgba(126, 109, 109, 0.57);
 }
+.app__section{
+    margin-top: 100px;
+    padding: 10px 0;
+    background-color: #000066;
+}
+.app__img img{
+    width: 100%;
+    transform: scale(1.5);
+}
+.app__section_container{
+    display: flex;
+    align-items: center;
+}
+.container__end{
+    justify-content: end;
+}
+.app__section__main{
+    text-align: center;
+}
+.app__section__main p{
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+}
