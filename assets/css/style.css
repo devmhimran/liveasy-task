@@ -74,6 +74,7 @@ a{
     font-size: 24px;
     border: 5px solid #09B778;
     margin-right: 20px;
+    transition: 0.3s ease-in-out;
 }
 .button__1:hover{
     background: #09B778;
@@ -161,4 +162,20 @@ a{
     font-size: 24px;
     color: rgba(80, 73, 73, 0.57);
     font-weight: 500;
+}
+.info__section{
+    padding: 100px 0;
+}
+.info__detail{
+    text-align: center;
+}
+.info__detail h4{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.info__detail p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(126, 109, 109, 0.57);
 }
