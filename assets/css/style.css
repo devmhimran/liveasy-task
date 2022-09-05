@@ -26,6 +26,8 @@ a{
 }
 .header__main{
     z-index: 9999;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-brand{
     font-size: 40px;
@@ -163,7 +165,9 @@ a{
     color: rgba(80, 73, 73, 0.57);
     font-weight: 500;
 }
-.info__section{
+.info__section,
+.pay__securely
+{
     padding: 100px 0;
 }
 .info__detail{
@@ -180,7 +184,7 @@ a{
     color: rgba(126, 109, 109, 0.57);
 }
 .app__section{
-    margin-top: 100px;
+    margin: 100px 0;
     padding: 10px 0;
     background-color: #000066;
 }
@@ -203,4 +207,37 @@ a{
     font-size: 38px;
     font-weight: 600;
     color: #fff;
+}
+.info__fingertips{
+    padding: 100px 0;
+}
+.info__fingertips__main{
+    text-align: center;
+}
+.info__fingertips__main h2{
+    font-size: 64px;
+    font-weight: 600;
+}
+.info__fingertips__main p{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(126, 109, 109, 0.57);
+}
+.pay__securely__title{
+    font-size: 64px;
+    font-weight: 600;
+}
+.pay__securely__sub__title{
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    color: rgba(126, 109, 109, 0.8);
+}
+.pay__securely__paragraph{
+    margin-top: 60px;
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: 500;
 }
