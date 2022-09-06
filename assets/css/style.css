@@ -166,7 +166,8 @@ a{
     font-weight: 500;
 }
 .info__section,
-.pay__securely
+.pay__securely,
+.testimonials
 {
     padding: 100px 0;
 }
@@ -311,3 +312,57 @@ a{
     color: #fff;
     font-size: 26px;
 }
+.testimonials .card .card-body{
+    position: relative;
+}
+.comment p{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.carousel-item{
+    padding: 50px 70px;
+}
+.user__detail img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.user__detail{
+    display: flex;
+    align-items: center;
+}
+.user__name p{
+    font-size: 26px;
+    font-weight: 600;
+}
+.rating{
+    font-size: 48px;
+}
+.rating span i{
+    color: #EBFF03;
+}
+.carousel-indicators{
+    all: unset;
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #0695A9;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+/* .score {
+    display: block;
+    max-width: 5em;
+    height: 1em;
+    margin: auto;
+    background: #eee;
+    background: linear-gradient( 90deg, #fc0 var( --_score, 50% ), #eee 0 );
+    mask: url( 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" ><path fill="%23000" d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z"/></svg>' ) 0 0/1em 1em;
+} */
