@@ -189,6 +189,10 @@ a {
     margin-top: 60px;
 }
 
+.hero__div__button {
+    display: inline;
+}
+
 .button__1 {
     padding: 10px 30px;
     color: #6CFAC6;
@@ -596,16 +600,22 @@ a {
         display: block;
     }
 
+    .hero__button {
+        text-align: center;
+    }
+    .hero__div__button{
+        display: block;
+        margin: 30px 0;
+    }
     .hero__heading {
         font-size: 44px;
+        text-align: center;
     }
 
     .button__1 {
         padding: 10px 20px;
-
         font-size: 14px;
         border: 2px solid #09B778;
-        margin-right: 20px;
     }
 
     .feature__section {
@@ -650,9 +660,11 @@ a {
         margin-top: 60px;
         text-align: center;
     }
-    .online__booking__content__right img{
+
+    .online__booking__content__right img {
         width: 70%;
     }
+
     .booking__detail h4 {
         font-size: 26px;
     }
@@ -706,10 +718,12 @@ a {
         margin-top: 40px;
         width: 100%;
     }
-    .product__info{
+
+    .product__info {
         background-position: left top;
         padding: 10px 0;
     }
+
     .tab__button__1,
     .tab__button__2 {
         font-size: 16px;
@@ -724,9 +738,11 @@ a {
     .our__product__img {
         width: 60%;
     }
+
     .product__info__main {
         margin-top: 40px;
     }
+
     .product__info__main__content {
         margin-top: 30px;
         text-align: center;
@@ -738,32 +754,39 @@ a {
         line-height: 42px;
         margin-bottom: 40px;
     }
+
     .product__info__main__content p {
         font-size: 18px;
         line-height: 32px;
         margin-bottom: 30px;
         text-align: center;
     }
-    .download__button{
+
+    .download__button {
         padding: 15px 32px;
         font-size: 22px;
     }
+
     .carousel-item {
         padding: 10px 30px;
     }
+
     .comment p {
         font-size: 28px;
         margin-bottom: 40px;
     }
+
     .rating {
         font-size: 18px;
     }
+
     .carousel-indicators {
         all: unset;
         position: absolute;
         bottom: 5%;
         right: 3%;
     }
+
     .carousel-indicators [data-bs-target] {
         background-color: #0695A9;
         width: 10px;
@@ -771,24 +794,29 @@ a {
         margin: 0 5px;
         border-radius: 50%;
     }
-    .first__detail h2{
+
+    .first__detail h2 {
         font-size: 44px;
     }
-    .first__detail p{
-        font-size: 26px;
+
+    .first__detail p {
+        font-size: 22px;
         margin: 40px 0 80px 0;
     }
-    .heading h2{
+
+    .heading h2 {
         font-size: 26px;
     }
-    .heading select{
+
+    .heading select {
         font-size: 14px;
         padding: 5px 20px;
     }
+
     .accordion-item,
-.accordion-button .collapsed,
-.accordion-button,
-.accordion-header{
-    font-size: 18px;
-}
+    .accordion-button .collapsed,
+    .accordion-button,
+    .accordion-header {
+        font-size: 18px;
+    }
 }
