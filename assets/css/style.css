@@ -21,7 +21,7 @@ body{
 h1,p{
     margin: 0;
 }
-a{
+/* a{
     text-decoration: none;
 }
 .header__main{
@@ -49,6 +49,101 @@ a{
 }
 .active-link{
     color: #09B778;
+} */
+nav{
+    padding: 10px 0;
+}
+a{
+    text-decoration: none;
+}
+.navbar__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.nav__logo a{
+    color: #fff;
+}
+.navbar__item{
+    display: flex;
+}
+.navbar__link{
+    margin-left: 40px;
+}
+.navbar__link a{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+.navbar__link a:hover{
+    color: #09B778;
+}
+.active a{
+    color: #09B778;
+}
+
+.navbar__btn{
+    display: none;
+
+}
+.first__bar,
+.menu__open__first,
+.menu__open__second
+{
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.second__bar{
+    margin-top: 10px;
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    float: right;
+    transition: 0.4s ease-in-out;
+}
+.menu__open__first{
+    transform: rotate(45deg);
+    transform-origin: 39%;
+}
+.menu__open__second{
+    transform: rotate(135deg);
+    transform-origin: 48%;
+}
+.phone__navbar{
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 8%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: #FFC3C3;
+    transition: 0.4s ease-in-out;
+
+}
+.phone__navbar__item .navbar__link {
+    padding: 20px 0;
+}
+.phone__navbar__item .navbar__link a{
+    font-size: 20px;
+    color: #262524;
+}
+@media only screen and (max-width: 600px){
+    .navbar__item{
+        display: none;
+    }
+    .navbar__btn{
+        display: block;
+    }
+    .menu__show{
+        display: block;
+    } 
 }
 .hero__area{
     width: 100%;
@@ -409,4 +504,82 @@ a{
     color: #000;
     padding: 10px 50px;
     border-radius: 60px;
+}
+@media only screen and (max-width: 600px){
+    .navbar__item{
+        display: none;
+    }
+    .navbar__btn{
+        display: block;
+    }
+    .menu__show{
+        display: block;
+    } 
+    .hero__heading{
+        font-size: 44px;
+    }
+    .button__1{
+        padding: 10px 20px;
+
+        font-size: 14px;
+        border: 2px solid #09B778;
+        margin-right: 20px;
+    }
+    .feature__section{
+        padding: 80px 0;
+    }
+    .featured__card{
+        font-size: 24px;
+        height: 150px;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .featured__card:nth-child(2){
+        transform: scale(1);
+    }
+    .online__booking__heading{
+        font-size: 46px;
+    }
+    .online__booking__sub__heading{
+        font-size: 26px;
+    }
+    .info__section,
+    .pay__securely,
+    .testimonials,
+    .company__detail,
+    .info__fingertips,
+    .our__product,
+    .online__booking,
+    .online__booking__content{
+        padding: 60px 0;
+    }
+    .online__booking__content{
+        background-position: center bottom;
+    }
+    .online__booking__content__right{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .booking__detail h4{
+        font-size: 26px;
+    }
+    .booking__detail p{
+        font-size: 18px;
+    }
+    .app__section{
+        padding: 60px 0;
+    }
+    .app__img img{
+        transform: scale(1);
+    }
+    .app__section_container{
+        display: block;
+    }
+    .info__fingertips__main h2, .our__product__heading h2 {
+        font-size: 44px;
+    }
+    .info__fingertips__main p {
+        margin-top: 40px;
+        font-size: 20px;
+    }
 }

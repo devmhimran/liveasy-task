@@ -72,3 +72,30 @@ shipper.addEventListener('click', () => {
 
     </div>`;
 })
+
+
+const navbarBtn = document.getElementById('navbarBtn');
+const firstBar = document.getElementById('firstBar');
+const secondBar = document.getElementById('secondBar');
+const phoneNavbar = document.getElementById('phoneNavbar');
+
+let open = false;
+navbarBtn.addEventListener('click', ()=>{
+    
+    if(!open){
+        firstBar.classList.remove('first__bar');
+        firstBar.classList.add('menu__open__first');
+        secondBar.classList.remove('second__bar');
+        secondBar.classList.add('menu__open__second');
+        navbarBtn.classList.toggle('menu__show')
+        open = true;
+    }else{
+        firstBar.classList.remove('menu__open__first');
+        firstBar.classList.add('first__bar');
+        secondBar.classList.remove('menu__open__second');
+        secondBar.classList.add('second__bar');
+        open = false;
+
+    }
+    phoneNavbar.classList.toggle('menu__show')
+})
