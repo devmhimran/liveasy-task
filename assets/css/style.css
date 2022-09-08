@@ -12,15 +12,18 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 
 */
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-h1,p{
+
+h1,
+p {
     margin: 0;
 }
+
 /* a{
     text-decoration: none;
 }
@@ -50,55 +53,64 @@ h1,p{
 .active-link{
     color: #09B778;
 } */
-nav{
+nav {
     padding: 10px 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.navbar__main{
+
+.navbar__main {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
     padding: 30px 0;
 }
-.nav__logo a{
+
+.nav__logo a {
     color: #fff;
 }
-.navbar__item{
+
+.navbar__item {
     display: flex;
 }
-.navbar__link{
+
+.navbar__link {
     margin-left: 40px;
 }
-.navbar__link a{
+
+.navbar__link a {
     color: #fff;
     font-size: 26px;
     font-weight: 600;
     transition: 0.2s ease-in-out;
 }
-.navbar__link a:hover{
-    color: #09B778;
-}
-.active a{
+
+.navbar__link a:hover {
     color: #09B778;
 }
 
-.navbar__btn{
+.active a {
+    color: #09B778;
+}
+
+.navbar__btn {
     display: none;
 
 }
+
 .first__bar,
 .menu__open__first,
-.menu__open__second
-{
+.menu__open__second {
     width: 40px;
     height: 3px;
     background-color: #fff;
     transition: 0.4s ease-in-out;
 }
-.second__bar{
+
+.second__bar {
     margin-top: 10px;
     width: 35px;
     height: 3px;
@@ -106,15 +118,18 @@ a{
     float: right;
     transition: 0.4s ease-in-out;
 }
-.menu__open__first{
+
+.menu__open__first {
     transform: rotate(45deg);
     transform-origin: 39%;
 }
-.menu__open__second{
+
+.menu__open__second {
     transform: rotate(135deg);
     transform-origin: 48%;
 }
-.phone__navbar{
+
+.phone__navbar {
     display: none;
     width: 90%;
     margin: 0 auto;
@@ -127,25 +142,31 @@ a{
     transition: 0.4s ease-in-out;
 
 }
+
 .phone__navbar__item .navbar__link {
     padding: 20px 0;
 }
-.phone__navbar__item .navbar__link a{
+
+.phone__navbar__item .navbar__link a {
     font-size: 20px;
     color: #262524;
 }
-@media only screen and (max-width: 600px){
-    .navbar__item{
+
+@media only screen and (max-width: 600px) {
+    .navbar__item {
         display: none;
     }
-    .navbar__btn{
+
+    .navbar__btn {
         display: block;
     }
-    .menu__show{
+
+    .menu__show {
         display: block;
-    } 
+    }
 }
-.hero__area{
+
+.hero__area {
     width: 100%;
     height: 110vh;
     background-image: url('../img/live-asy-img-01.jpg');
@@ -156,16 +177,19 @@ a{
     display: flex;
     align-items: center;
 }
-.hero__heading{
-    font-family: 'Roboto Condensed', sans-serif; 
+
+.hero__heading {
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 64px;
     font-weight: 500;
     color: #fff;
 }
-.hero__button{
+
+.hero__button {
     margin-top: 60px;
 }
-.button__1{
+
+.button__1 {
     padding: 10px 30px;
     color: #6CFAC6;
     font-size: 24px;
@@ -173,15 +197,18 @@ a{
     margin-right: 20px;
     transition: 0.3s ease-in-out;
 }
-.button__1:hover{
+
+.button__1:hover {
     background: #09B778;
     color: #fff;
     border: 5px solid #09B778;
 }
-.feature__section{
+
+.feature__section {
     padding: 100px 0 200px 0;
 }
-.featured__card{
+
+.featured__card {
     background-color: #000066;
     color: #fff;
     /* padding: 60px; */
@@ -195,18 +222,21 @@ a{
     text-align: center;
     border-radius: 34px;
 }
-.featured__card:nth-child(2){
+
+.featured__card:nth-child(2) {
     transform: scale(1.2);
     border: 3px solid #fff;
     color: #09B778;
 }
-.online__booking__heading{
+
+.online__booking__heading {
     font-family: 'Inter', sans-serif;
     font-size: 64px;
     font-weight: 600;
     text-align: center;
 }
-.online__booking__sub__heading{
+
+.online__booking__sub__heading {
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 600;
@@ -215,27 +245,33 @@ a{
     text-decoration: underline;
     margin: 40px 0;
 }
-.online__booking__content{
+
+.online__booking__content {
     background-image: url('../img/load-bg-01.png');
     background-repeat: no-repeat;
     background-position: center right;
 }
-.online__booking__content__right{
+
+.online__booking__content__right {
     text-align: right;
 }
-.online__booking__content__left{
+
+.online__booking__content__left {
     display: flex;
     align-items: center;
 }
-.online__booking__content__left__main{
+
+.online__booking__content__left__main {
     /* border-left: 3px dashed #000; */
 }
-.booking__detail{
+
+.booking__detail {
     /* margin-bottom: 80px; */
     border-left: 3px dashed #000;
     padding-left: 25px;
 }
-.booking__detail::before{
+
+.booking__detail::before {
     content: "";
     display: block;
     width: 20px;
@@ -243,19 +279,23 @@ a{
     border-radius: 50%;
     background-color: #157D04;
 }
-.timeline__icon{
+
+.timeline__icon {
     color: #09B778;
     font-size: 36px;
 }
-.booking__detail h4{
+
+.booking__detail h4 {
     font-size: 36px;
     font-weight: 600;
 }
-.booking__detail p{
+
+.booking__detail p {
     font-size: 24px;
     color: rgba(80, 73, 73, 0.57);
     font-weight: 500;
 }
+
 .info__section,
 .pay__securely,
 .testimonials,
@@ -263,83 +303,96 @@ a{
 .info__fingertips,
 .our__product,
 .online__booking,
-.online__booking__content
-{
+.online__booking__content {
     padding: 100px 0;
 }
-.info__detail{
+
+.info__detail {
     text-align: center;
 }
-.info__detail h4{
+
+.info__detail h4 {
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 20px;
 }
-.info__detail p{
+
+.info__detail p {
     font-size: 24px;
     font-weight: 500;
     color: rgba(126, 109, 109, 0.57);
 }
-.app__section{
+
+.app__section {
     margin: 100px 0;
     padding: 10px 0;
     background-color: #000066;
 }
-.app__img img{
+
+.app__img img {
     width: 100%;
     transform: scale(1.5);
 }
-.app__section_container{
+
+.app__section_container {
     display: flex;
     align-items: center;
 }
-.container__end{
+
+.container__end {
     justify-content: end;
 }
-.app__section__main{
+
+.app__section__main {
     text-align: center;
 }
-.app__section__main p{
+
+.app__section__main p {
     font-family: 'Inter', sans-serif;
     font-size: 38px;
     font-weight: 600;
     color: #fff;
 }
-.info__fingertips__main{
+
+.info__fingertips__main {
     text-align: center;
 }
+
 .info__fingertips__main h2,
-.our__product__heading h2
-{
+.our__product__heading h2 {
     font-size: 64px;
     font-weight: 600;
     text-align: center;
 }
-.info__fingertips__main p{
+
+.info__fingertips__main p {
     margin-top: 40px;
     font-size: 30px;
     font-weight: 500;
     color: rgba(126, 109, 109, 0.57);
 }
-.pay__securely__title{
+
+.pay__securely__title {
     font-size: 64px;
     font-weight: 600;
 }
-.pay__securely__sub__title{
+
+.pay__securely__sub__title {
     margin-top: 20px;
     font-size: 40px;
     line-height: 50px;
     font-weight: 500;
     color: rgba(126, 109, 109, 0.8);
 }
-.pay__securely__paragraph{
+
+.pay__securely__paragraph {
     margin-top: 60px;
     font-size: 48px;
     line-height: 65px;
     font-weight: 500;
 }
 
-.tab__switcher{
+.tab__switcher {
     background-color: rgba(126, 109, 109, 0.3);
     width: 50%;
     margin: 60px auto 0 auto;
@@ -347,9 +400,9 @@ a{
     justify-content: center;
     border-radius: 40px;
 }
+
 .tab__button__1,
-.tab__button__2
-{
+.tab__button__2 {
     width: 100%;
     padding: 20px 0px;
     text-align: center;
@@ -360,42 +413,50 @@ a{
     color: #000;
     cursor: pointer;
 }
-.tab__active{
+
+.tab__active {
     background-color: #034852;
     color: #fff;
     border-radius: 40px;
 }
+
 .tab__button__1:hover,
-.tab__button__2:hover{
+.tab__button__2:hover {
     color: #000;
 }
-.tab__active:hover{
+
+.tab__active:hover {
     color: #fff;
 }
-.product__info__main{
+
+.product__info__main {
     display: flex;
     align-items: center;
 }
-.product__info{
+
+.product__info {
     background-image: url('../img/load-bg-02.png');
     background-repeat: no-repeat;
     background-position: center left;
     padding: 120px 0;
 }
-.product__info__main__content h2{
+
+.product__info__main__content h2 {
     font-size: 48px;
     line-height: 65px;
     font-weight: 800;
     color: #032086;
     margin-bottom: 80px;
 }
-.product__info__main__content p{
+
+.product__info__main__content p {
     font-size: 26px;
     line-height: 48px;
     font-weight: 500;
     margin-bottom: 60px;
 }
-.download__button{
+
+.download__button {
     padding: 20px 40px;
     border-radius: 32px;
     border: none;
@@ -403,43 +464,53 @@ a{
     color: #fff;
     font-size: 26px;
 }
-.testimonials .card .card-body{
+
+.testimonials .card .card-body {
     position: relative;
 }
-.comment p{
+
+.comment p {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 80px;
 }
-.carousel-item{
+
+.carousel-item {
     padding: 50px 70px;
 }
-.user__detail img{
+
+.user__detail img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-right: 20px;
 }
-.user__detail{
+
+.user__detail {
     display: flex;
     align-items: center;
 }
-.user__name p{
+
+.user__name p {
     font-size: 26px;
     font-weight: 600;
 }
-.rating{
+
+.rating {
     font-size: 48px;
 }
-.rating span i{
+
+.rating span i {
     color: #EBFF03;
 }
-.carousel-indicators{
+
+.carousel-indicators {
     all: unset;
     position: absolute;
     bottom: 15%;
     right: 5%;
 }
+
 .carousel-indicators [data-bs-target] {
     background-color: #0695A9;
     width: 20px;
@@ -457,92 +528,109 @@ a{
     background: linear-gradient( 90deg, #fc0 var( --_score, 50% ), #eee 0 );
     mask: url( 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" ><path fill="%23000" d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z"/></svg>' ) 0 0/1em 1em;
 } */
-.company__detail{
+.company__detail {
     background-color: #000;
 }
-.divider{
+
+.divider {
     width: 136px;
     height: 2px;
     background-color: #09B778;
     margin: 0 auto 80px auto;
 }
-.first__detail h2{
+
+.first__detail h2 {
     color: #fff;
     font-size: 64px;
     text-align: center;
     font-weight: 600;
 }
-.first__detail p{
+
+.first__detail p {
     color: #fff;
     font-size: 40px;
     text-align: center;
     font-weight: 400;
     margin: 60px 0 120px 0;
 }
+
 .accordion-item,
 .accordion-button .collapsed,
 .accordion-button,
-.accordion-header
-{
+.accordion-header {
     background-color: #000;
     color: #fff;
     font-size: 30px;
 }
-.heading{
+
+.heading {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
-.heading h2{
+
+.heading h2 {
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #fff;
 }
-.heading select{
+
+.heading select {
     font-size: 20px;
     color: #000;
     padding: 10px 50px;
     border-radius: 60px;
 }
-@media only screen and (max-width: 600px){
-    .navbar__item{
+
+@media only screen and (max-width: 600px) {
+    .navbar__item {
         display: none;
     }
-    .navbar__btn{
+
+    .navbar__btn {
         display: block;
     }
-    .menu__show{
+
+    .menu__show {
         display: block;
-    } 
-    .hero__heading{
+    }
+
+    .hero__heading {
         font-size: 44px;
     }
-    .button__1{
+
+    .button__1 {
         padding: 10px 20px;
 
         font-size: 14px;
         border: 2px solid #09B778;
         margin-right: 20px;
     }
-    .feature__section{
+
+    .feature__section {
         padding: 80px 0;
     }
-    .featured__card{
+
+    .featured__card {
         font-size: 24px;
         height: 150px;
         width: 90%;
         margin: 10px auto;
     }
-    .featured__card:nth-child(2){
+
+    .featured__card:nth-child(2) {
         transform: scale(1);
     }
-    .online__booking__heading{
+
+    .online__booking__heading {
         font-size: 46px;
     }
-    .online__booking__sub__heading{
+
+    .online__booking__sub__heading {
         font-size: 26px;
     }
+
     .info__section,
     .pay__securely,
     .testimonials,
@@ -550,36 +638,157 @@ a{
     .info__fingertips,
     .our__product,
     .online__booking,
-    .online__booking__content{
+    .online__booking__content {
         padding: 60px 0;
     }
-    .online__booking__content{
+
+    .online__booking__content {
         background-position: center bottom;
     }
-    .online__booking__content__right{
+
+    .online__booking__content__right {
         margin-top: 60px;
         text-align: center;
     }
-    .booking__detail h4{
+    .online__booking__content__right img{
+        width: 70%;
+    }
+    .booking__detail h4 {
         font-size: 26px;
     }
-    .booking__detail p{
+
+    .booking__detail p {
         font-size: 18px;
     }
-    .app__section{
+
+    .app__section {
         padding: 60px 0;
     }
-    .app__img img{
+
+    .app__img img {
         transform: scale(1);
     }
-    .app__section_container{
+
+    .app__section_container {
         display: block;
     }
-    .info__fingertips__main h2, .our__product__heading h2 {
+
+    .info__fingertips__main h2,
+    .our__product__heading h2 {
         font-size: 44px;
     }
+
     .info__fingertips__main p {
         margin-top: 40px;
         font-size: 20px;
     }
+
+    .pay__securely__main {
+        text-align: center;
+    }
+
+    .pay__securely__title {
+        font-size: 44px;
+    }
+
+    .pay__securely__sub__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pay__securely__paragraph {
+        margin-top: 30px;
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    .pay__securely__img img {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .product__info{
+        background-position: left top;
+        padding: 10px 0;
+    }
+    .tab__button__1,
+    .tab__button__2 {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+
+    .product__info__img {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .our__product__img {
+        width: 60%;
+    }
+    .product__info__main {
+        margin-top: 40px;
+    }
+    .product__info__main__content {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .product__info__main__content h2 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 40px;
+    }
+    .product__info__main__content p {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .download__button{
+        padding: 15px 32px;
+        font-size: 22px;
+    }
+    .carousel-item {
+        padding: 10px 30px;
+    }
+    .comment p {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    .rating {
+        font-size: 18px;
+    }
+    .carousel-indicators {
+        all: unset;
+        position: absolute;
+        bottom: 5%;
+        right: 3%;
+    }
+    .carousel-indicators [data-bs-target] {
+        background-color: #0695A9;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        border-radius: 50%;
+    }
+    .first__detail h2{
+        font-size: 44px;
+    }
+    .first__detail p{
+        font-size: 26px;
+        margin: 40px 0 80px 0;
+    }
+    .heading h2{
+        font-size: 26px;
+    }
+    .heading select{
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+    .accordion-item,
+.accordion-button .collapsed,
+.accordion-button,
+.accordion-header{
+    font-size: 18px;
+}
 }

@@ -32,8 +32,8 @@ transporter.addEventListener('click', () => {
     transporter.classList.add('tab__active');
     shipper.classList.remove('tab__active');
     row.innerHTML = `
-    <div class="col-lg-6">
-    <img src="./assets/img/product__phone.png" alt="">
+    <div class="col-lg-6 product__info__img">
+    <img class="our__product__img" src="./assets/img/product__phone.png" alt="">
     </div>
     <div class="col-lg-6 product__info__main">
 
@@ -55,8 +55,8 @@ shipper.addEventListener('click', () => {
     transporter.classList.remove('tab__active');
     shipper.classList.add('tab__active');
     row.innerHTML = `
-    <div class="col-lg-6">
-    <img src="./assets/img/loads-1.png" alt="">
+    <div class="col-lg-6 product__info__img">
+    <img class="our__product__img" src="./assets/img/loads-1.png" alt="">
     </div>
     <div class="col-lg-6 product__info__main">
 
