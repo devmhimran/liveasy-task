@@ -308,7 +308,8 @@ a {
 .info__fingertips,
 .our__product,
 .online__booking,
-.online__booking__content {
+.online__booking__content,
+.footer__main {
     padding: 100px 0;
 }
 
@@ -589,7 +590,7 @@ a {
 }
 .live__asy__download__app{
     background-color: #000;
-    padding: 60px 0;
+    padding: 30px 0;
 }
 .live__asy__download__app__main{
     display: flex;
@@ -609,6 +610,32 @@ a {
 .live__asy__download__app__button:hover{
     background-color: rgba(217, 217, 217, 0.3);
     color: #fff;
+}
+.footer__main{
+    background-color: #000;
+}
+.footer__content{
+   padding: 30px 0; 
+}
+.footer__content p{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer__content a{
+   display: block;
+   margin: 10px 0;
+   color: #7E6E6E;
+   font-size: 22px;
+   font-weight: 500;
+   transition: 0.4s ease-in-out;
+}
+.footer__content a:hover{
+   color: #fff;
+}
+.footer__main hr{
+    border: 2px solid rgba(217, 217, 217, 0.31);
 }
 @media only screen and (max-width: 600px) {
     .navbar__item {
@@ -671,7 +698,8 @@ a {
     .info__fingertips,
     .our__product,
     .online__booking,
-    .online__booking__content {
+    .online__booking__content,
+    .footer__main {
         padding: 60px 0;
     }
 
@@ -844,7 +872,7 @@ a {
     }
     .live__asy__download__app{
         background-color: #000;
-        padding: 60px 0;
+        padding: 30px 0;
     }
     .live__asy__download__app__main{
         display: block;
