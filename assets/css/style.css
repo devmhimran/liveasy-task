@@ -327,7 +327,16 @@ a {
     font-weight: 500;
     color: rgba(126, 109, 109, 0.57);
 }
-
+.carousel-indicators{
+    top: 104%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 20px;
+    background-color: #0695A9;
+}
 .app__section {
     margin: 100px 0;
     padding: 10px 0;
@@ -480,7 +489,7 @@ a {
     margin-bottom: 80px;
 }
 
-.carousel-item {
+.testimonials .carousel-item {
     padding: 50px 70px;
 }
 
@@ -509,14 +518,14 @@ a {
     color: #EBFF03;
 }
 
-.carousel-indicators {
+.testimonials .carousel-indicators {
     all: unset;
     position: absolute;
     bottom: 15%;
     right: 5%;
 }
 
-.carousel-indicators [data-bs-target] {
+.testimonials .carousel-indicators [data-bs-target] {
     background-color: #0695A9;
     width: 20px;
     height: 20px;
@@ -823,7 +832,7 @@ a {
         font-size: 22px;
     }
 
-    .carousel-item {
+    .testimonials .carousel-item {
         padding: 10px 30px;
     }
 
@@ -836,14 +845,14 @@ a {
         font-size: 18px;
     }
 
-    .carousel-indicators {
+    .testimonials .carousel-indicators {
         all: unset;
         position: absolute;
         bottom: 5%;
         right: 3%;
     }
 
-    .carousel-indicators [data-bs-target] {
+    .testimonials .carousel-indicators [data-bs-target] {
         background-color: #0695A9;
         width: 10px;
         height: 10px;
@@ -892,6 +901,11 @@ a {
         border-radius: 32px;
         font-size: 18px;
         margin-left: 0;
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 20px;
+        height: 20px;
+        margin: 0 10px;
     }
     .footer__content{
         text-align: center;
